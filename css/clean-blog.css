@@ -409,9 +409,12 @@ body {
   -webkit-tap-highlight-color: #0085A1;
 }
 
+.icon-boxs {
+  text-align: center;
+}
 
  .icon-boxs { position: relative; z-index: 5; margin-top: -42px;}
- .icon-boxs ul li { float: left; width: 20%;  border-right: solid 1px #8b8d8e; text-align: center; display: table; overflow: hidden; position: relative; background-color: #fff; height: 85px; vertical-align: middle;}
+ .icon-boxs ul li { display:inline-block !important; width: 20%;  border-right: solid 0px #8b8d8e; text-align: center; display: table; overflow: hidden; position: relative; background-color: #fff; height: 85px; vertical-align: middle;}
  .icon-boxs ul li:last-child { border-right: 0 none;}
  .icon-boxs ul li a { display: table-cell; padding:0; vertical-align: middle; color: #8b8d8e;height: 85px; overflow: hidden; }
  .icon-boxs ul li a:hover { text-decoration: none;}
