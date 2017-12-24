@@ -44,8 +44,14 @@ hr.small {
   max-width: 100px;
   margin: 15px auto;
   border-width: 4px;
-  border: color #ff94a7;
+  
+
+  height:3px;
+  border:none;
+  border-top:3px solid #ff94a7;
 }
+
+
 .navbar-custom {
   position: absolute;
   top: 0;
@@ -180,7 +186,7 @@ hr.small {
 }
 .intro-header .site-heading .subheading,
 .intro-header .page-heading .subheading {
-  font-size: 22px;
+  font-size: 30px;
   line-height: 1.1;
   display: block;
   color: #ff94a7;
@@ -191,7 +197,8 @@ hr.small {
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading h1,
   .intro-header .page-heading h1 {
-    font-size: 80px;
+    font-size: 60px;
+    margin-top: 20%;
   }
 }
 .intro-header .post-heading h1 {
@@ -414,9 +421,10 @@ body {
 }
 
  .icon-boxs { position: relative; z-index: 5; margin-top: -42px;}
+ .icon-boxs ul  { padding-left: 0; }
  .icon-boxs ul li { display:inline-block !important; width: 20%;  border-right: solid 0px #8b8d8e; text-align: center; display: table; overflow: hidden; position: relative; background-color: #fff; height: 85px; vertical-align: middle;}
  .icon-boxs ul li:last-child { border-right: 0 none;}
- .icon-boxs ul li a { display: table-cell; padding:0; vertical-align: middle; color: #8b8d8e;height: 85px; overflow: hidden; }
+ .icon-boxs ul li a { padding:0; vertical-align: middle; color: #8b8d8e;height: 85px; overflow: hidden; }
  .icon-boxs ul li a:hover { text-decoration: none;}
  .icon-boxs ul li img { margin-right: 5px; vertical-align: middle; }
  .icon-boxs ul li p { display: inline-block; max-width: 100px; margin-left: 5px; font-size: 18px; color: #8b8d8e; line-height: 1; text-align: left; vertical-align: middle;}
